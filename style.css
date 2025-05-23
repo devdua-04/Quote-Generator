@@ -1,0 +1,64 @@
+body{
+    background-color: beige;
+    font-family: Arial, sans-serif;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-box{
+    background-color: black;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 1000px;
+    height: max-content;
+    /* position: relative; */
+    overflow: hidden;
+    transition: all 0.3s ease;
+    color: orangered;
+    align-items: center;
+    justify-self: unset;
+    display: flex;
+    font-size: xx-large;
+    flex-direction: column;   
+    border-radius: 15px;
+}
+
+.quote-text{
+    
+    /* font-size: 24px; */
+    color: orangered;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.quote-author{
+    align-self: self-end;
+    /* justify-items: end; */
+    /* justify-self:end; */
+    /* align-items: end; */
+    font-size: 20px;
+    color: orangered;
+    text-align:right;
+    margin-bottom: 20px;
+    /* background-color: blanchedalmond; */
+}
+
+.generator button{
+    background-color: orangered;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
