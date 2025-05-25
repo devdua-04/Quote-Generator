@@ -2,7 +2,7 @@ const url = 'https://random-quote-generator2.p.rapidapi.com/randomQuote';
 const options = {
     method: 'GET',
     headers: {
-        'x-rapidapi-key': 'a5e1e41edamsh97f6fa08c8dee71p1e3d33jsnecec3d9ff597',
+        'x-rapidapi-key': window.env.Access_Key,
         'x-rapidapi-host': 'random-quote-generator2.p.rapidapi.com'
     }
 };
